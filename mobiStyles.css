@@ -1,0 +1,63 @@
+@media only screen and (max-width: 900px) {
+
+    .btn {
+        padding: 2rem 2.5rem;
+    }
+
+    .again {
+        top: 0;
+        padding: 2%;
+    }
+
+    .between {
+        font-size: 1rem;
+        top: 10px;
+        right: 15px;
+    }
+
+    header {
+        right: -2.5px;
+        width: 100%;
+        top: 25px;
+    }
+
+    main {
+        justify-content: space-evenly;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 25px;
+    }
+
+    .right {
+        position: relative;
+        top: -20px;
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+
+    .guess {
+        border: 3px solid #eee;
+        font-size: 2rem;
+        padding: 2.5rem 1.5rem;
+        width: 17rem;
+        margin-bottom: 1rem;
+    }
+
+    .message {
+        margin-bottom: 4rem;
+        height: 3rem;
+    }
+
+    .label-score {
+        margin-bottom: 1rem;
+        font-size:1rem;
+    }
+
+    .label-highscore{
+        font-size:1rem;
+    }
+}
